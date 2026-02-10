@@ -1,7 +1,6 @@
 /**
  * DS18B20 Pico Library
- * Copyright (c) 2024 Team Disruptors. All rights reserved.
- * Proprietary software - unauthorized use prohibited.
+ *
  */
 
 #pragma once

@@ -136,7 +136,7 @@ int main() {
 - **Temperature Range**: -55°C to +125°C
 - **Supply Voltage**: 3.0V to 5.5V
 - **Resolution**: User configurable 9-12 bits
-```
+
 ## Support
 
 For issues and questions:

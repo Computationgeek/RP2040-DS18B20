@@ -136,20 +136,6 @@ int main() {
 - **Temperature Range**: -55°C to +125°C
 - **Supply Voltage**: 3.0V to 5.5V
 - **Resolution**: User configurable 9-12 bits
-
-## File Structure
-
-```
-DS18B20_Pico/
-├── include/
-│   └── DS18B20.h
-├── src/
-│   └── DS18B20.cpp
-├── examples/
-│   └── basic_temp/
-│       └── main.cpp
-├── CMakeLists.txt
-└── README.md
 ```
 ## Support
 

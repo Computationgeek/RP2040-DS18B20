@@ -1,7 +1,6 @@
 /**
  * DS18B20 Pico Library
- * Copyright (c) 2024 Team Disruptors. All rights reserved.
- * Proprietary software - unauthorized use prohibited.
+ *
  */
 #include <cstdint>  //This line was added to for uint8_t definition
 #include "DS18B20.h" //This line was added to include the header file for the D18B20 Class

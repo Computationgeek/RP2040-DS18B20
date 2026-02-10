@@ -44,45 +44,6 @@ DS18B20 sensor(pin);
 - `float readCelsius()` - Read temperature in Celsius (alias)
 - `float readFahrenheit()` - Read temperature in Fahrenheit
 
-## Installation
-
-### Method 1: Direct Copy
-```bash
-# Copy library to your project
-cp -r DS18B20_Pico/ your-project/lib/
-```
-
-### Method 2: Git Submodule
-```bash
-git submodule add https://github.com/TeamDisruptors/PWREUV.git lib/DS18B20_Pico
-
-## Integration in Your Project
-
-### 1. Update CMakeLists.txt
-```cmake
-# Add DS18B20 library
-add_subdirectory(lib/DS18B20_Pico)
-
-# Link with your executable
-target_link_libraries(your_project
-    DS18B20
-    pico_stdlib
-    hardware_gpio
-)
-```
-
-### 2. Include in Your Code
-```cpp
-#include "DS18B20.h"
-
-DS18B20 sensor(2); // GPIO 2
-
-int main() {
-    sensor.begin();
-    float temp = sensor.readCelsius();
-    return 0;
-}
-```
 
 ## Hardware Configuration
 
